@@ -2,7 +2,7 @@
   "name": "@swiss-flags/core",
   "author": "Reto Barmettler",
   "license": "ISC",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Raw SVG files for Swiss flags",
   "private": true
 }

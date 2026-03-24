@@ -3,7 +3,7 @@
   "author": "Reto Barmettler",
   "license": "ISC",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Swiss flag icons for React, Vue, and Angular",
   "workspaces": [
     "packages/*"
