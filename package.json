@@ -1,6 +1,9 @@
 {
   "name": "swiss-flags-monorepo",
   "author": "Reto Barmettler",
+  "repository": {
+    "url": "https://github.com/crzdg/swiss-flags"
+  },
   "license": "ISC",
   "private": true,
   "version": "0.0.3",

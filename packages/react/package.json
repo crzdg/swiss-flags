@@ -1,6 +1,9 @@
 {
   "name": "@swiss-flags/react",
   "author": "Reto Barmettler",
+  "repository": {
+    "url": "https://github.com/crzdg/swiss-flags"
+  },
   "license": "ISC",
   "version": "0.0.3",
   "description": "React components for Swiss flags",

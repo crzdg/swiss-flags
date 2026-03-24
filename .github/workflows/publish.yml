@@ -26,7 +26,7 @@ jobs:
           node-version: '22.x'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Upgrade npm to latest
+      - name: Upgrade npm to OICD support version 
         run: npm install -g npm@11.12.0
 
       - name: Install dependencies
