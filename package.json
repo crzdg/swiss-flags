@@ -1,0 +1,14 @@
+{
+  "name": "swiss-flags-monorepo",
+  "author": "Reto Barmettler",
+  "license": "ISC",
+  "private": true,
+  "version": "0.0.2",
+  "description": "Swiss flag icons for React, Vue, and Angular",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r run build"
+  }
+}

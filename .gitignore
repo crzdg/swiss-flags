@@ -1,0 +1,124 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+npm-shrinkwrap.json
+yarn.lock
+
+# pnpm specific
+pnpm-debug.log
+pnpm-error.log
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+out/
+.next/
+.turbo/
+
+# Package outputs
+*.tgz
+*.tar.gz
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.sublime-workspace
+.eclipse
+.c9/
+*.sublime-project
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.jest-cache/
+.vitest/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+.cache/
+.eslintcache
+.stylelintcache
+temp/
+tmp/
+*.bak
+*.swp
+
+# Monorepo specific
+.turbo/
+.changeset/
+dist/
+packages/*/dist/
+packages/*/.turbo/
+packages/*/node_modules/
+
+# Local development
+.env.local
+.env.*.local
+.vscode-test/
+
+# Bundler outputs
+dist/
+.parcel-cache/
+.parcel-cache/
+.webpack/
+.eslint-cache/
+.next-build/
+
+# macOS
+*.app
+*.dmg
+.AppleDouble
+
+# Windows
+*.exe
+*.msi
+*.zip
+
+# Linux
+.directory
+
+# IDE workspace
+.workspace
+workspace.code-workspace
+
+# Pre-commit hooks
+.husky/
+.lint-staged
+
+# Git hooks
+.git/hooks/
