@@ -33,4 +33,4 @@ jobs:
         run: make build-react-package
 
       - name: Publish to npm
-        run: make publish-react-package
+        run: make publish-react
