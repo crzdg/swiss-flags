@@ -2,8 +2,8 @@
 
 # Installs dependencies for the monorepo and any nested example folders
 install:
-	pnpm install
-	cd packages/react/example && pnpm install
+	pnpm install --frozen-lockfile
+	cd packages/react/example && pnpm install --frozen-lockfile
 
 # Cleans up all generated files across the monorepo
 clean:
@@ -23,12 +23,12 @@ install-react-example:
 	cd packages/react/example && pnpm install
 
 # Builds just the static Vite HTML site for React
-build-react-example: install-react-example
+build-react-example:
 	cd packages/react/example && pnpm run build
 
 # Publishes the React package to npm (automatically builds it first to ensure it's up to date)
 publish-react:
-	pnpm --filter @swiss-flags/react publish --access public
+	pnpm --filter @swiss-flags/react publish --access public --no-git-checks
 
 # Builds the React library, then the example site
 build-react: build-react-package build-react-example
