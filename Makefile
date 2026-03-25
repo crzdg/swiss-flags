@@ -20,7 +20,7 @@ build-react-package:
 
 # Installs dependencies for the React example (not a workspace package)
 install-react-example:
-	cd packages/react/example && pnpm install
+	cd packages/react/example && npm install
 
 # Builds just the static Vite HTML site for React
 build-react-example:
