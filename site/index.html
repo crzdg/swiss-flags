@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiss Flags - Framework Examples</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 12px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            padding: 30px 20px;
+            border: 2px solid #eee;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            background: #fafafa;
+        }
+
+        .card:hover {
+            border-color: #667eea;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .card.active {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .card.coming-soon {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .card.coming-soon:hover {
+            border-color: #eee;
+            box-shadow: none;
+            transform: none;
+        }
+
+        .card-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 1.2em;
+        }
+
+        .card-text {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #667eea;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.75em;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        .badge.coming-soon {
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🇨🇭 Swiss Flags</h1>
+        <p class="subtitle">Framework examples for the Swiss Flags component library</p>
+
+        <div class="grid">
+            <a href="/swiss-flags/react/" class="card active">
+                <div class="card-icon">⚛️</div>
+                <div class="card-title">React</div>
+                <div class="card-text">View the React example with canton flags</div>
+                <div class="badge">Live</div>
+            </a>
+
+            <div class="card coming-soon">
+                <div class="card-icon">🖖</div>
+                <div class="card-title">Vue.js</div>
+                <div class="card-text">Vue.js example coming soon</div>
+                <div class="badge coming-soon">Coming Soon</div>
+            </div>
+
+            <div class="card coming-soon">
+                <div class="card-icon">🅰️</div>
+                <div class="card-title">Angular</div>
+                <div class="card-text">Angular example coming soon</div>
+                <div class="badge coming-soon">Coming Soon</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

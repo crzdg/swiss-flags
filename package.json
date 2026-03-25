@@ -6,7 +6,7 @@
   },
   "license": "ISC",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Swiss flag icons for React, Vue, and Angular",
   "workspaces": [
     "packages/*"

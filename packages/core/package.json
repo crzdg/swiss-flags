@@ -5,7 +5,7 @@
     "url": "https://github.com/crzdg/swiss-flags"
   },
   "license": "ISC",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Raw SVG files for Swiss flags",
   "private": true
 }

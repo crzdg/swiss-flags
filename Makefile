@@ -24,7 +24,7 @@ install-react-example:
 
 # Builds just the static Vite HTML site for React
 build-react-example:
-	cd packages/react/example && pnpm run build
+	cd packages/react/example && pnpm run build -- --base=/swiss-flags/react/
 
 # Publishes the React package to npm (automatically builds it first to ensure it's up to date)
 publish-react:
